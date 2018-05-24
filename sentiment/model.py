@@ -51,7 +51,7 @@ print(X_train.shape,Y_train.shape)
 print(X_test.shape,Y_test.shape)
 
 batch_size = 32
-model.fit(X_train, Y_train, epochs = 7, batch_size=batch_size, verbose = 2)
+model.fit(X_train, Y_train, epochs = 50, batch_size=batch_size, verbose = 2)
 
 validation_size = 1500
 
